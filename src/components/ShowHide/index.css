@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .name-container {
+    margin: 20px;
+  }
+}
+
+.button {
+  color: #dd1264;
+  height: 40px;
+  width: 180px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.first-name-container {
+  height: 120px;
+  width: 250px;
+  background-color: #fddddb;
+  border: 0px;
+  border-radius: 8px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-name {
+  color: #000000;
+  font-size: 24px;
+}
